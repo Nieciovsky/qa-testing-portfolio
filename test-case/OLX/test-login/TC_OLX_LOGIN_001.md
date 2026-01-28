@@ -2,7 +2,8 @@
 
 **ID:** TC_OLX_LOGIN_001
 
-**Opis** Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy użyciu ważnych danych uwierzytelniających (e-mail i hasło).
+**Opis:** \
+Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy użyciu ważnych danych uwierzytelniających (e-mail i hasło).
 
 **Kroki:** <br>
 Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
