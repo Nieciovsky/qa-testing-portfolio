@@ -6,20 +6,22 @@
 Weryfikacja obsługi błędu podczas próby logowania z poprawnym e-mailem, ale niepoprawnym hasłem.
 
 **Kroki:**\
-Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
-Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
-Wybierz opcję "Zaloguj się".<br>
-Wpisz adres e-mail w polu "E-mail".<br>
-Wpisz hasło w polu "Hasło".<br>
-Kliknij przycisk "Zaloguj się".<br>
+1. Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
+2. Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
+3. Wybierz opcję "Zaloguj się".<br>
+4. Wpisz adres e-mail w polu "E-mail".<br>
+5. Wpisz hasło w polu "Hasło".<br>
+6. Kliknij przycisk "Zaloguj się".<br>
 
 **Dane testowe:**<br>
 E-mail: test@example.com<br>
 Hasło: ZleHaslo456<br>
 
-**Oczekiwany wynik:** Wyświetlenie komunikatu błędu "Hasło jest nieprawidłowe" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
+**Oczekiwany wynik:** \
+Wyświetlenie komunikatu błędu "Hasło jest nieprawidłowe" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
-**Rzeczywisty wynik:** Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamiętasz hasła, możesz je zresetować.", użytkownik pozostaje na formularzu, nie jest zalogowany.
+**Rzeczywisty wynik:** \
+Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamiętasz hasła, możesz je zresetować.", użytkownik pozostaje na formularzu, nie jest zalogowany.
 
 **Status:** Zaliczony
 
