@@ -2,10 +2,10 @@
 
 **ID:** TC_OLX_LOGIN_001
 
-**Opis:** \
+##**Opis:** \
 Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy użyciu ważnych danych uwierzytelniających (e-mail i hasło).
 
-**Kroki:** <br>
+**Kroki:** 
 1. Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
 2. Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
 3. Wybierz opcję "Zaloguj się".<br>
@@ -17,8 +17,10 @@ Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy u
 E-mail: test@example.com<br>
 Hasło: PoprawneHaslo123!<br>
 
-**Oczekiwany wynik:** \ Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
+**Oczekiwany wynik:** \
+Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
 
-**Rzeczywisty wynik:** \ Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
+**Rzeczywisty wynik:** \ 
+Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
 
 **Status:** Zaliczony
