@@ -5,16 +5,16 @@
 **Opis** Weryfikacja obsługi błędu podczas próby logowania bez podania hasła.
 
 **Kroki:**
-Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.
-Kliknij przycisk "Twoje konto" w prawym górnym rogu.
-Wybierz opcję "Zaloguj się".
-Wpisz adres e-mail w polu "E-mail".
-Pole "Hasło" pozostaw puste.
-Kliknij przycisk "Zaloguj się".
+Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
+Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
+Wybierz opcję "Zaloguj się".<br>
+Wpisz adres e-mail w polu "E-mail".<br>
+Pole "Hasło" pozostaw puste.<br>
+Kliknij przycisk "Zaloguj się".<br>
 
-**Dane testowe:**
-E-mail: test@example.com
-Hasło:
+**Dane testowe:**<br>
+E-mail: test@example.com<br>
+Hasło:<br>
 
 **Oczekiwany wynik:** Wyświetlenie komunikatu błędu "Proszę podać hasło" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
