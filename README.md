@@ -1,15 +1,16 @@
-# Moje portfolio QA – Kamil Nieć
+# Portfolio QA – Kamil Nieć
+Repozytorium zawiera przykłady mojej pracy z zakresu testów manualnych, przygotowane **w trakcie nauki i rozwijania kompetencji QA**. Znajdują się tu raporty błędów oraz przypadki testowe opracowane na podstawie rzeczywistych aplikacji webowych.
 
-Przykłady raportów błędów i test cases.
+## Raporty błędów:
+- **OLX.pl – Brak spacji w etykietach podkategorii Nieruchomości** \
+📄 [bug-reports/olx-menu-spacje.md](bug-reports/olx-menu-spacje.md)
 
-## Zgłoszone bugi:
+## Przypadki testowe (Test Cases):
 
-- [OLX.pl – Brak spacji w etykietach podkategorii Nieruchomości](bug-reports/olx-menu-spacje.md)
-
-## Test Cases:
-
-- [OLX.pl – Logowanie: różne warianty](test-case/OLX/test-login)
+- **OLX.pl – Logowanie: różne warianty** \
+<small> Zestaw przypadków testowych obejmujący różne scenariusze logowania (poprawne dane, błędne dane, przypadki brzegowe).</small> \
+📄 [test-case/OLX/test-login](test-case/OLX/test-login)
   
 ## Kontakt
-LinkedIn: https://linkedin.com/in/kamilniec01  
-Email: kamil.niec@int.pl
+**LinkedIn:** https://linkedin.com/in/kamilniec01  
+**Email:** kamil.niec@int.pl
