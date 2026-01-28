@@ -21,7 +21,7 @@ Każda etykieta podkategorii jest poprawnie sformatowana z spacjami
 (np. „Ogród w Dom i Ogród”, „Budowa i Remont w Usługi”)
 
 **Rzeczywisty rezultat:**  
-W kilku podkategoriach brakuje spacji (np. „Ogród `wD`om i Ogród”, „Budowa i Remont `wU`sługi”)
+W kilku podkategoriach brakuje spacji (np. „Ogród `wDom i Ogród`”, „Budowa i Remont `wUsługi`”)
 
 **Dodatkowe informacje:**
 - **Priorytet:** Niski
