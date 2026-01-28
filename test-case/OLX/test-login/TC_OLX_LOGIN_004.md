@@ -2,23 +2,26 @@
 
 **ID:** TC_OLX_LOGIN_004
 
-**Opis** Weryfikacja obsługi błędu podczas próby logowania bez podania hasła.
+**Opis** \
+Weryfikacja obsługi błędu podczas próby logowania bez podania hasła.
 
 **Kroki:**
-Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
-Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
-Wybierz opcję "Zaloguj się".<br>
-Wpisz adres e-mail w polu "E-mail".<br>
-Pole "Hasło" pozostaw puste.<br>
-Kliknij przycisk "Zaloguj się".<br>
+1. Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
+2. Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
+3. Wybierz opcję "Zaloguj się".<br>
+4. Wpisz adres e-mail w polu "E-mail".<br>
+5. Pole "Hasło" pozostaw puste.<br>
+6. Kliknij przycisk "Zaloguj się".<br>
 
 **Dane testowe:**<br>
 E-mail: test@example.com<br>
 Hasło:<br>
 
-**Oczekiwany wynik:** Wyświetlenie komunikatu błędu "Proszę podać hasło" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
+**Oczekiwany wynik:** \
+Wyświetlenie komunikatu błędu "Proszę podać hasło" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
-**Rzeczywisty wynik:** Wyświetlenie komunikatu błędu pod polem "Hasło": "Masz pewność co do hasła? Jest zbyt krótkie", użytkownik pozostaje na formularzu logowania, przycisk "Zaloguj się" nieaktywny. Urzytkownik pozostaje niezalogowany.
+**Rzeczywisty wynik:** \
+Wyświetlenie komunikatu błędu pod polem "Hasło": "Masz pewność co do hasła? Jest zbyt krótkie", użytkownik pozostaje na formularzu logowania, przycisk "Zaloguj się" nieaktywny. Urzytkownik pozostaje niezalogowany.
 
 **Status:** Zaliczony
 
