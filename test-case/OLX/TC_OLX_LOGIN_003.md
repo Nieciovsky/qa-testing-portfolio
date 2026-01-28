@@ -5,16 +5,16 @@
 **Opis** Weryfikacja obsługi błędu podczas próby logowania z niepoprawnym e-mailem, ale poprawnym hasłem.
 
 **Kroki:**
-Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.
-Kliknij przycisk "Twoje konto" w prawym górnym rogu.
-Wybierz opcję "Zaloguj się".
-Wpisz adres e-mail w polu "E-mail".
-Wpisz hasło w polu "Hasło".
-Kliknij przycisk "Zaloguj się".
-
+Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl. <br>
+Kliknij przycisk "Twoje konto" w prawym górnym rogu. <br>
+Wybierz opcję "Zaloguj się". <br>
+Wpisz adres e-mail w polu "E-mail". <br>
+Wpisz hasło w polu "Hasło". <br>
+Kliknij przycisk "Zaloguj się". <br>
+ 
 **Dane testowe:**
-E-mail: niepoprawnyemail@example.com
-Hasło: PoprawneHaslo123!
+E-mail: niepoprawnyemail@example.com <br>
+Hasło: PoprawneHaslo123! <br>
 
 **Oczekiwany wynik:** Wyświetlenie komunikatu błędu "E-mail jest nieprawidłowy" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
