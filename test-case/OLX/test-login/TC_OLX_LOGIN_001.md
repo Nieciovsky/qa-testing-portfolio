@@ -20,7 +20,7 @@ Hasło: PoprawneHaslo123!<br>
 **Oczekiwany wynik:** \
 Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
 
-**Rzeczywisty wynik:** \ 
+**Rzeczywisty wynik:** \
 Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
 
 **Status:** Zaliczony
