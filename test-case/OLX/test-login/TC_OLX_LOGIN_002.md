@@ -2,9 +2,10 @@
 
 **ID:** TC_OLX_LOGIN_002
 
-**Opis** Weryfikacja obsługi błędu podczas próby logowania z poprawnym e-mailem, ale niepoprawnym hasłem.
+**Opis** \
+Weryfikacja obsługi błędu podczas próby logowania z poprawnym e-mailem, ale niepoprawnym hasłem.
 
-**Kroki:**
+**Kroki:**\
 Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl.<br>
 Kliknij przycisk "Twoje konto" w prawym górnym rogu.<br>
 Wybierz opcję "Zaloguj się".<br>
