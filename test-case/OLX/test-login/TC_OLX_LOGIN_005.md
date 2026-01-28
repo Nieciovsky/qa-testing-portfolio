@@ -2,23 +2,26 @@
 
 **ID:** TC_OLX_LOGIN_005
 
-**Opis** Weryfikacja obsługi błędu podczas próby logowania bez podania adresu e-mail.
+**Opis** \
+Weryfikacja obsługi błędu podczas próby logowania bez podania adresu e-mail.
 
 **Kroki:**
-Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl. <br>
-Kliknij przycisk "Twoje konto" w prawym górnym rogu. <br>
-Wybierz opcję "Zaloguj się". <br>
-Pole "E-mail" pozostaw puste. <br>
-Wpisz hasło w polu "Hasło". <br>
-Kliknij przycisk "Zaloguj się". <br>
+1. Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl. <br>
+2. Kliknij przycisk "Twoje konto" w prawym górnym rogu. <br>
+3. Wybierz opcję "Zaloguj się". <br>
+4. Pole "E-mail" pozostaw puste. <br>
+5. Wpisz hasło w polu "Hasło". <br>
+6. Kliknij przycisk "Zaloguj się". <br>
 
 **Dane testowe:** <br>
 E-mail: <br>
 Hasło: DobreHasło <br>
 
-**Oczekiwany wynik:** Wyświetlenie komunikatu błędu "Proszę wpisać adres e-mail" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
+**Oczekiwany wynik:** \
+Wyświetlenie komunikatu błędu "Proszę wpisać adres e-mail" (lub podobny), użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
-**Rzeczywisty wynik:** Wyświetlenie komunikatu błędu pod polem "E-mail": "Wpisz swój e-mail", użytkownik pozostaje na formularzu logowania, przycisk "Zaloguj się" nieaktywny. Urzytkownik pozostaje niezalogowany.
+**Rzeczywisty wynik:** \
+Wyświetlenie komunikatu błędu pod polem "E-mail": "Wpisz swój e-mail", użytkownik pozostaje na formularzu logowania, przycisk "Zaloguj się" nieaktywny. Urzytkownik pozostaje niezalogowany.
 
 **Status:** Zaliczony
 
