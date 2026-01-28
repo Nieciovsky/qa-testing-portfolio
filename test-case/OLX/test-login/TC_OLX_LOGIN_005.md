@@ -1,11 +1,11 @@
 # Test Case: Próba logowania bez podania adresu e-mail (OLX.pl)
 
-## **ID:** TC_OLX_LOGIN_005
+**ID:** TC_OLX_LOGIN_005
 
-#### **Opis** \
+**Opis** \
 Weryfikacja obsługi błędu podczas próby logowania bez podania adresu e-mail.
 
-### **Kroki:**
+**Kroki:**
 1. Otwórz przeglądarkę i przejdź na stronę https://www.olx.pl. <br>
 2. Kliknij przycisk "Twoje konto" w prawym górnym rogu. <br>
 3. Wybierz opcję "Zaloguj się". <br>
