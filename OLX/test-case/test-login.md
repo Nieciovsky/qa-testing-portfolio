@@ -16,7 +16,7 @@
 12. [Hasło z dodatkowymi spacjami (na początku / końcu)](#TC_OLX_LOGIN_012)
 13. [Widoczność znaków hasła (maskowanie)](#TC_OLX_LOGIN_013)
 ## 4. Komunikaty błędów (UX / UI)
-14. [Wyświetlenie komunikatu błędu przy niepoprawnych danych](#TC_OLX_LOGIN_014h)
+14. [Wyświetlenie komunikatu błędu przy niepoprawnych danych](#TC_OLX_LOGIN_014)
 15. [Czy komunikat błędu znika po poprawieniu danych](#TC_OLX_LOGIN_015)
 ## 5. Przycisk „Zaloguj” i elementy formularza
 16. [Przycisk „Zaloguj” nieaktywny przy pustych polach](#TC_OLX_LOGIN_016)
