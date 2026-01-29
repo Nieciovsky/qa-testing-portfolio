@@ -1,4 +1,4 @@
-# Bug Report: Nieprawidłowa obsługa hasła z dodatkowymi spacjami – OLX.pl
+# Bug Report: <br> Nieprawidłowa obsługa hasła z dodatkowymi spacjami – OLX.pl
 
 **Tytuł:** System nie akceptuje hasła z dodatkowymi spacjami na początku lub końcu pola
 
