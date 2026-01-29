@@ -2,7 +2,7 @@
 
 **Tytuł:** System nie akceptuje hasła z dodatkowymi spacjami na początku lub końcu pola
 
-**Data zgłoszenia:** 19 stycznia 2026
+**Data zgłoszenia:** 19 stycznia 2026 <br>
 **ID testu powiązanego:** TC_OLX_LOGIN_012
 
 **Środowisko:**
