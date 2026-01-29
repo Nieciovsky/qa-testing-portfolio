@@ -18,7 +18,7 @@
 
 ### 1.1 Logowanie poprawnym adresem e-mail i poprawnym hasłem
 
-**ID:** TC_OLX_LOGIN_001
+<h3 id="tc_olx_login_001">**ID:** TC_OLX_LOGIN_001</h3>
 
 **Opis:** \
 Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy użyciu ważnych danych uwierzytelniających (e-mail i hasło).
