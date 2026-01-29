@@ -18,23 +18,23 @@
 3. [Logowanie przy użyciu klawiatury (Enter zamiast kliknięcia przycisku)](#TC_OLX_LOGIN_003)
 4. [Poprawne przekierowanie po zalogowaniu (dashboard / strona główna)](#TC_OLX_LOGIN_004)
 ## 2. Walidacja danych wejściowych – e-mail
-  [Logowanie z niepoprawnym formatem e-mail (brak @)](#TC_OLX_LOGIN_005)
-  [Logowanie z niepoprawnym formatem e-mail (brak domeny)](#TC_OLX_LOGIN_006)
-  [Logowanie z nieistniejącym adresem e-mail](#TC_OLX_LOGIN_007)
-  [Próba logowania bez podania adresu e-mail](#TC_OLX_LOGIN_008)
-  [Spacje przed / po adresie e-mail (trimowanie)](#TC_OLX_LOGIN_009)
+1. [Logowanie z niepoprawnym formatem e-mail (brak @)](#TC_OLX_LOGIN_005)
+2. [Logowanie z niepoprawnym formatem e-mail (brak domeny)](#TC_OLX_LOGIN_006)
+3. [Logowanie z nieistniejącym adresem e-mail](#TC_OLX_LOGIN_007)
+4. [Próba logowania bez podania adresu e-mail](#TC_OLX_LOGIN_008)
+5. [Spacje przed / po adresie e-mail (trimowanie)](#TC_OLX_LOGIN_009)
 ## 3. Walidacja danych wejściowych – hasło
-3.1 [Logowanie z niepoprawnym hasłem](#TC_OLX_LOGIN_010)
-3.2 [Próba logowania bez podania hasła](#TC_OLX_LOGIN_011)
-3.3 [Hasło z dodatkowymi spacjami (na początku / końcu)](#TC_OLX_LOGIN_012)
-3.4 [Widoczność znaków hasła (maskowanie)](#TC_OLX_LOGIN_013)
+1. [Logowanie z niepoprawnym hasłem](#TC_OLX_LOGIN_010)
+2. [Próba logowania bez podania hasła](#TC_OLX_LOGIN_011)
+3. [Hasło z dodatkowymi spacjami (na początku / końcu)](#TC_OLX_LOGIN_012)
+4. [Widoczność znaków hasła (maskowanie)](#TC_OLX_LOGIN_013)
 ## 4. Komunikaty błędów (UX / UI)
-4.1 [Wyświetlenie komunikatu błędu przy niepoprawnych danych](#TC_OLX_LOGIN_014)
-4.2 [Czy komunikat błędu znika po poprawieniu danych](#TC_OLX_LOGIN_015)
+1. [Wyświetlenie komunikatu błędu przy niepoprawnych danych](#TC_OLX_LOGIN_014)
+2. [Czy komunikat błędu znika po poprawieniu danych](#TC_OLX_LOGIN_015)
 ## 5. Przycisk „Zaloguj” i elementy formularza
-5.1 [Przycisk „Zaloguj” nieaktywny przy pustych polach](#TC_OLX_LOGIN_016)
-5.2 [Przycisk „Zaloguj” aktywny po uzupełnieniu danych](#TC_OLX_LOGIN_017)
-5.3 [Widoczność i dostępność linku „Nie pamiętam hasła”](#TC_OLX_LOGIN_018)
+1. [Przycisk „Zaloguj” nieaktywny przy pustych polach](#TC_OLX_LOGIN_016)
+2. [Przycisk „Zaloguj” aktywny po uzupełnieniu danych](#TC_OLX_LOGIN_017)
+3. [Widoczność i dostępność linku „Nie pamiętam hasła”](#TC_OLX_LOGIN_018)
 
 <br><br>
 ---
