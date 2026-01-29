@@ -399,6 +399,7 @@ System usuwa nadmiarowe spacje i pozwala użytkownikowi zalogować się do konta
 Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamiętasz hasła, możesz je zresetować.", użytkownik pozostaje na formularzu, nie jest zalogowany.
 
 **Status:** ❌ Niezaliczony <br>
+*Bug report:* [Click](../bug-reports/trim-password.md)
 
 ---
 
