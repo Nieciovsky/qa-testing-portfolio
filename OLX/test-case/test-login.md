@@ -10,15 +10,20 @@
 7. [Logowanie z nieistniejącym adresem e-mail](#TC_OLX_LOGIN_007)
 8. [Próba logowania bez podania adresu e-mail](#TC_OLX_LOGIN_008)
 9. [Spacje przed / po adresie e-mail (trimowanie)](#TC_OLX_LOGIN_009)
+## 3. Walidacja danych wejściowych – hasło
+10. [Logowanie z niepoprawnym hasłem](#TC_OLX_LOGIN_010)
+11. [Próba logowania bez podania hasła](#TC_OLX_LOGIN_011)
+12. [Hasło z dodatkowymi spacjami (na początku / końcu)](#33-hasło-z-dodatkowymi-spacjami-na-początku--końcu)
+13. [Widoczność znaków hasła (maskowanie)](#34-widoczność-znaków-hasła-maskowanie)
 
 
 
 
 ## 1. Scenariusze pozytywne (Happy path)
 
-### 1.1 Logowanie poprawnym adresem e-mail i poprawnym hasłem
+<h3 id="tc_olx_login_001"> 1.1 Logowanie poprawnym adresem e-mail i poprawnym hasłem </h3>
 
-<h3 id="tc_olx_login_001">**ID:** TC_OLX_LOGIN_001</h3>
+**ID:** TC_OLX_LOGIN_001
 
 **Opis:** \
 Weryfikacja, czy użytkownik może poprawnie zalogować się do konta OLX przy użyciu ważnych danych uwierzytelniających (e-mail i hasło).
@@ -47,7 +52,7 @@ Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak
 
 ---
 
-### 1.2 Logowanie po wcześniejszym wylogowaniu
+<h3 id="tc_olx_login_002"> 1.2 Logowanie po wcześniejszym wylogowaniu </h3>
 
 **ID:** TC_OLX_LOGIN_002
 
@@ -80,7 +85,7 @@ Użytkownik zostaje zalogowany po raz pierwszy, następnie wylogowany. Po ponown
 
 ---
 
-### 1.3 Logowanie po wcześniejszym wylogowaniu
+<h3 id="tc_olx_login_003"> 1.3 Logowanie po wcześniejszym wylogowaniu </h3>
 
 **ID:** TC_OLX_LOGIN_003
 
@@ -109,7 +114,7 @@ Użytkownik zostaje zalogowany i przekierowany do panelu "Moje OLX". Brak komuni
 
 ---
 
-### 1.4 Logowanie po wcześniejszym wylogowaniu
+<h3 id="tc_olx_login_004"> 1.4 Logowanie po wcześniejszym wylogowaniu </h3>
 
 **ID:** TC_OLX_LOGIN_004
 
@@ -140,7 +145,7 @@ Użytkownik zostaje zalogowany i automatycznie przekierowany do panelu "Moje OLX
 
 ## 2. Walidacja danych wejściowych – e-mail
 
-### 2.1 Logowanie z niepoprawnym formatem e-mail (brak @)
+<h3 id="tc_olx_login_005"> 2.1 Logowanie z niepoprawnym formatem e-mail (brak @) </h3>
 
 **ID:** TC_OLX_LOGIN_005
 
@@ -169,7 +174,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu "To nie wyglą
 
 ---
 
-### 2.2 Logowanie z niepoprawnym formatem e-mail (brak domeny)
+<h3 id="tc_olx_login_006"> 2.2 Logowanie z niepoprawnym formatem e-mail (brak domeny) </h3>
 
 **ID:** TC_OLX_LOGIN_006
 
@@ -198,7 +203,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu "To nie wyglą
 
 ---
 
-### 2.3 Logowanie z nieistniejącym adresem e-mail
+<h3 id="tc_olx_login_007"> 2.3 Logowanie z nieistniejącym adresem e-mail </h3>
 
 **ID:** TC_OLX_LOGIN_007
 
@@ -227,7 +232,7 @@ Wyświetlenie komunikatu błędu "Coś poszło nie tak...", użytkownik pozostaj
 
 ---
 
-### 2.4 Logowanie z nieistniejącym adresem e-mail
+<h3 id="tc_olx_login_008"> 2.4 Logowanie z nieistniejącym adresem e-mail </h3>
 
 **ID:** TC_OLX_LOGIN_008
 
@@ -256,7 +261,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu "Wpisz swój e
 
 ---
 
-### 2.5 Spacje przed / po adresie e-mail (trimowanie)
+<h3 id="tc_olx_login_009"> 2.5 Spacje przed / po adresie e-mail (trimowanie) </h3>
 
 **ID:** TC_OLX_LOGIN_009
 
@@ -287,7 +292,7 @@ System usuwa nadmiarowe spacje i pozwala użytkownikowi zalogować się do konta
 
 ## 3. Walidacja danych wejściowych – hasło
 
-### 3.1 Logowanie z niepoprawnym hasłem
+<h3 id="tc_olx_login_010"> 3.1 Logowanie z niepoprawnym hasłem </h3>
 
 **ID:** TC_OLX_LOGIN_010
 
@@ -316,7 +321,7 @@ Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamię
 
 ---
 
-### 3.2 Próba logowania bez podania hasła
+<h3 id="tc_olx_login_011"> 3.2 Próba logowania bez podania hasła</h3>
 
 **ID:** TC_OLX_LOGIN_011
 
@@ -346,7 +351,7 @@ Wyświetlenie komunikatu błędu pod polem "Hasło": "Masz pewność co do hasł
 
 ---
 
-### 3.3 Hasło z dodatkowymi spacjami (na początku / końcu)
+<h3 id="tc_olx_login_012"> 3.3 Hasło z dodatkowymi spacjami (na początku / końcu) </h3>
 
 **ID:** TC_OLX_LOGIN_012
 
@@ -375,7 +380,7 @@ Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamię
 
 ---
 
-### 3.4 Hasło z dodatkowymi spacjami (na początku / końcu)
+<h3 id="tc_olx_login_013"> 3.4 Hasło z dodatkowymi spacjami (na początku / końcu) </h3>
 
 **ID:** TC_OLX_LOGIN_013
 
@@ -404,7 +409,7 @@ Wpisywane znaki hasła są maskowane (ukryte) jako kropki. Brak widocznych liter
 
 ## 4.Komunikaty błędów (UX / UI)
 
-### 4.1 Wyświetlenie komunikatu błędu przy niepoprawnych danych
+<h3 id="tc_olx_login_014"> 4.1 Wyświetlenie komunikatu błędu przy niepoprawnych danych </h3>
 
 **ID:** TC_OLX_LOGIN_014
 
@@ -433,7 +438,7 @@ System pod odpowiednim polem wyświetla komunikat błędu informujący, że poda
 
 ---
 
-### 4.2 Czy komunikat błędu znika po poprawieniu danych
+<h3 id="tc_olx_login_015"> 4.2 Czy komunikat błędu znika po poprawieniu danych </h3>
 
 **ID:** TC_OLX_LOGIN_015
 
@@ -465,7 +470,7 @@ Po poprawnym wprowadzeniu danych komunikat błędu znika, a użytkownik zostaje 
 
 ## 5.Komunikaty błędów (UX / UI)
 
-### 5.1 Przycisk „Zaloguj” nieaktywny przy pustych polach
+<h3 id="tc_olx_login_016"> 5.1 Przycisk „Zaloguj” nieaktywny przy pustych polach </h3>
 
 **ID:** TC_OLX_LOGIN_016
 
@@ -495,7 +500,7 @@ Przycisk "Zaloguj" jest nieaktywny (nieklikalny) dopóki oba pola nie zostaną w
 
 ---
 
-### 5.2 Przycisk „Zaloguj” aktywny po uzupełnieniu danych
+<h3 id="tc_olx_login_01"> 5.2 Przycisk „Zaloguj” aktywny po uzupełnieniu danych </h3>
 
 **ID:** TC_OLX_LOGIN_017
 
@@ -524,7 +529,7 @@ Po wprowadzeniu poprawnych danych przycisk "Zaloguj" staje się aktywny i pozwal
 
 ---
 
-### 5.3 Widoczność i dostępność linku „Nie pamiętam hasła”
+<h3 id="tc_olx_login_08"> 5.3 Widoczność i dostępność linku „Nie pamiętam hasła” </h3>
 
 **ID:** TC_OLX_LOGIN_018
 
