@@ -13,16 +13,16 @@
 
 # Spis Treści
 ## 1. Scenariusze pozytywne (Happy path)
-  1.1 [Logowanie poprawnym adresem e-mail i poprawnym hasłem](#TC_OLX_LOGIN_001)
-  1.2 [Logowanie po wcześniejszym wylogowaniu](#TC_OLX_LOGIN_002)
-  1.2 [Logowanie przy użyciu klawiatury (Enter zamiast kliknięcia przycisku)](#TC_OLX_LOGIN_003)
-  1.2 [Poprawne przekierowanie po zalogowaniu (dashboard / strona główna)](#TC_OLX_LOGIN_004)
+1. [Logowanie poprawnym adresem e-mail i poprawnym hasłem](#tc_olx_login_001)
+2. [Logowanie po wcześniejszym wylogowaniu](#TC_OLX_LOGIN_002)
+3. [Logowanie przy użyciu klawiatury (Enter zamiast kliknięcia przycisku)](#TC_OLX_LOGIN_003)
+4. [Poprawne przekierowanie po zalogowaniu (dashboard / strona główna)](#TC_OLX_LOGIN_004)
 ## 2. Walidacja danych wejściowych – e-mail
-    2.1 [Logowanie z niepoprawnym formatem e-mail (brak @)](#TC_OLX_LOGIN_005)
-    2.2 [Logowanie z niepoprawnym formatem e-mail (brak domeny)](#TC_OLX_LOGIN_006)
-    2.3 [Logowanie z nieistniejącym adresem e-mail](#TC_OLX_LOGIN_007)
-    2.4 [Próba logowania bez podania adresu e-mail](#TC_OLX_LOGIN_008)
-    2.5 [Spacje przed / po adresie e-mail (trimowanie)](#TC_OLX_LOGIN_009)
+  [Logowanie z niepoprawnym formatem e-mail (brak @)](#TC_OLX_LOGIN_005)
+  [Logowanie z niepoprawnym formatem e-mail (brak domeny)](#TC_OLX_LOGIN_006)
+  [Logowanie z nieistniejącym adresem e-mail](#TC_OLX_LOGIN_007)
+  [Próba logowania bez podania adresu e-mail](#TC_OLX_LOGIN_008)
+  [Spacje przed / po adresie e-mail (trimowanie)](#TC_OLX_LOGIN_009)
 ## 3. Walidacja danych wejściowych – hasło
 3.1 [Logowanie z niepoprawnym hasłem](#TC_OLX_LOGIN_010)
 3.2 [Próba logowania bez podania hasła](#TC_OLX_LOGIN_011)
