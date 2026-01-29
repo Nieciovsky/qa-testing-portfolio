@@ -23,8 +23,9 @@
 17. [Przycisk „Zaloguj” aktywny po uzupełnieniu danych](#TC_OLX_LOGIN_017)
 18. [Widoczność i dostępność linku „Nie pamiętam hasła”](#TC_OLX_LOGIN_018)
 
+<br><br>
 ---
-
+<br><br>
 
 
 ## 1. Scenariusze pozytywne (Happy path)
