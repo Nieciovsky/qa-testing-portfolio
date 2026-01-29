@@ -19,24 +19,24 @@ This project includes:
 Each folder contains tests and bug reports for a specific feature or workflow.  
 Example structure:
 
-📁 bug-reports-and-test-cases
-├─ 📁 OLX
-│  ├─ 🐞 bug-report
-│  │   └─ bug-report-1.md
-│  └─ 📝 test-case
-│      ├─ 🔑 test-login
-│      │   ├─ test-login-1.md
-│      │   └─ test-login-2.md
-│      └─ 🧪 test-other
-│          └─ test-login-1.md
-├─ 📁 EXAMPLE_2
-│  ├─ 🐞 bug-report
-│  │   └─ bug-report-1.md
-│  └─ 📝 test-case
-│      └─ 🔑 test-example
-│          ├─ test-example-1.md
-|          └─ test-example-1.md
-└─ 📝 README.md
+📁 bug-reports-and-test-cases \
+├─ 📁 OLX \
+│  ├─ 🐞 bug-report \
+│  │   └─ bug-report-1.md \
+│  └─ 📝 test-case \
+│      ├─ 🔑 test-login \
+│      │   ├─ test-login-1.md \
+│      │   └─ test-login-2.md \
+│      └─ 🧪 test-other \
+│          └─ test-login-1.md \
+├─ 📁 EXAMPLE_2 \
+│  ├─ 🐞 bug-report \
+│  │   └─ bug-report-1.md \
+│  └─ 📝 test-case \
+│      └─ 🔑 test-example \
+│          ├─ test-example-1.md \
+|          └─ test-example-1.md \
+└─ 📝 README.md \
 
 
 ---
