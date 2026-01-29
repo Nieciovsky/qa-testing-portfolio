@@ -1,3 +1,3 @@
 *in progress...*
 
-[Click](bug-reports-and-test-cases/OLX/test-case/test-login.md)
+[Click](../bug-reports/trim-password.md)
