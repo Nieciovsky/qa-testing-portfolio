@@ -78,7 +78,5 @@ If you find this useful, feel free to connect:
 
 
 
-📄 [bug-reports/olx-menu-spacje.md](bug-reports/olx-menu-spacje.md)
 
-📄 [test-case/OLX/test-login](test-case/OLX/test-login)
   
