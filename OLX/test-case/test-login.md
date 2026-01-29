@@ -1,4 +1,4 @@
-## Spis Treści
+# Spis Treści | Test Cases – Logowanie OLX
 ### 1. Scenariusze pozytywne (Happy path)
 1. [Logowanie poprawnym adresem e-mail i poprawnym hasłem](#TC_OLX_LOGIN_001)
 2. [Logowanie po wcześniejszym wylogowaniu](#TC_OLX_LOGIN_002)
