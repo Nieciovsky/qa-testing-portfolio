@@ -1,4 +1,4 @@
-# Bug Report: Brak spacji w etykietach podkategorii – OLX.pl
+# Bug Report: <br> Brak spacji w etykietach podkategorii – OLX.pl
 
 **Tytuł:** Brak spacji w etykietach podkategorii w menu „Nieruchomości” (np. „Ogród w Dom i Ogród”)
 
