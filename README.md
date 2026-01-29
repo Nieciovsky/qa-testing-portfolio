@@ -26,17 +26,14 @@ Example structure:
 │  │  └─ bug-report-1.md
 │  └─ 📝 test-case
 │     ├─ 🔑 test-login
-│     │  ├─ test-login-1.md
-│     │  └─ test-login-2.md
 │     └─ 🧪 test-other
-│        └─ test-login-1.md
-├─ 📁 EXAMPLE_2
+│
+├─ 📁 EX2
 │  ├─ 🐞 bug-report
 │  │  └─ bug-report-1.md
 │  └─ 📝 test-case
-│     └─ 🔑 test-example
-│        ├─ test-example-1.md
-│        └─ test-example-2.md
+│     ├─ 🔑 test-login
+│     └─ 🧪 test-other
 └─ 📝 README.md
 ```
 
