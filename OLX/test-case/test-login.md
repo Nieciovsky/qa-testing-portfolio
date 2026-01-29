@@ -57,7 +57,7 @@ Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak
 **Rzeczywisty wynik:** \
 Użytkownik zostaje zalogowany a strona przekierowuje do panelu "Moje OLX". Brak komunikatów błędów.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony 
 
 ---
 
@@ -90,7 +90,7 @@ Użytkownik zostaje zalogowany po raz pierwszy, następnie wylogowany. Po ponown
 **Rzeczywisty wynik:** \
 Użytkownik zostaje zalogowany po raz pierwszy, następnie wylogowany. Po ponownym zalogowaniu przy użyciu tych samych danych użytkownik ponownie zostaje przekierowany do panelu "Moje OLX". Brak komunikatów błędów.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -119,7 +119,7 @@ Użytkownik zostaje zalogowany i przekierowany do panelu "Moje OLX". Brak komuni
 **Rzeczywisty wynik:** \
 Użytkownik zostaje zalogowany i przekierowany do panelu "Moje OLX". Brak komunikatów błędów.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -148,7 +148,7 @@ Użytkownik zostaje zalogowany i automatycznie przekierowany do panelu "Moje OLX
 **Rzeczywisty wynik:** \
 Użytkownik zostaje zalogowany i automatycznie przekierowany do panelu "Moje OLX" lub strony głównej konta. Brak błędów lub niepoprawnych przekierowań.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -179,7 +179,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu informujący o
 **Rzeczywisty wynik:** \
 System nie pozwala zalogować się i wyświetla komunikat błędu "To nie wygląda jak adres mailowy..." informujący o niepoprawnym formacie adresu e-mail.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -208,7 +208,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu informujący o
 **Rzeczywisty wynik:** \
 System nie pozwala zalogować się i wyświetla komunikat błędu "To nie wygląda jak adres mailowy..." informujący o niepoprawnym formacie adresu e-mail.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -237,7 +237,7 @@ Wyświetlenie komunikatu błędu "E-mail jest nieprawidłowy" (lub podobny), uż
 **Rzeczywisty wynik:** \
 Wyświetlenie komunikatu błędu "Coś poszło nie tak...", użytkownik pozostaje na formularzu logowania, nie jest zalogowany.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -266,7 +266,7 @@ System nie pozwala zalogować się i wyświetla komunikat błędu informujący o
 **Rzeczywisty wynik:** \
 System nie pozwala zalogować się i wyświetla komunikat błędu "Wpisz swój e-mail" informujący o konieczności wprowadzenia adresu e-mail.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -295,7 +295,7 @@ System usuwa nadmiarowe spacje i pozwala użytkownikowi zalogować się do konta
 **Rzeczywisty wynik:** \
 System usuwa nadmiarowe spacje i pozwala użytkownikowi zalogować się do konta OLX. Brak komunikatów błędów.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -326,7 +326,7 @@ Wyświetlenie komunikatu błędu "Hasło jest nieprawidłowe" (lub podobny), uż
 **Rzeczywisty wynik:** \
 Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamiętasz hasła, możesz je zresetować.", użytkownik pozostaje na formularzu, nie jest zalogowany.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -356,11 +356,11 @@ Wyświetlenie komunikatu błędu "Proszę podać hasło" (lub podobny), użytkow
 **Rzeczywisty wynik:** \
 Wyświetlenie komunikatu błędu pod polem "Hasło": "Masz pewność co do hasła? Jest zbyt krótkie", użytkownik pozostaje na formularzu logowania, przycisk "Zaloguj się" nieaktywny. Użytkownik pozostaje niezalogowany.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
-<h3 id="tc_olx_login_012"> 3.3 Hasło z dodatkowymi spacjami (na początku / końcu) </h3>
+<h3 id="tc_olx_login_012"> 3.3 Hasło z dodatkowymi spacjami (na początku / końcu) ⚠️ </h3>
 
 **ID:** TC_OLX_LOGIN_012
 
@@ -385,7 +385,7 @@ System usuwa nadmiarowe spacje i pozwala użytkownikowi zalogować się do konta
 **Rzeczywisty wynik:** \
 Wyświetla się komunikat błędu "Hasło jest nieprawidłowe. Jeśli nie pamiętasz hasła, możesz je zresetować.", użytkownik pozostaje na formularzu, nie jest zalogowany.
 
-**Status:** Niezaliczony
+**Status:** ❌ Niezaliczony
 
 ---
 
@@ -412,7 +412,7 @@ Wpisywane znaki hasła są maskowane (ukryte), np. jako kropki lub gwiazdki. Bra
 **Rzeczywisty wynik:** \
 Wpisywane znaki hasła są maskowane (ukryte) jako kropki. Brak widocznych liter hasła na ekranie.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -443,7 +443,7 @@ System wyświetla komunikat błędu informujący, że podane dane są nieprawid�
 **Rzeczywisty wynik:** \
 System pod odpowiednim polem wyświetla komunikat błędu informujący, że podane dane są nieprawidłowe i logowanie nie powiodło się. Komunikat jest czytelny i widoczny dla użytkownika.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -473,7 +473,7 @@ Po poprawnym wprowadzeniu danych komunikat błędu znika, a użytkownik zostaje 
 **Rzeczywisty wynik:** \
 Po poprawnym wprowadzeniu danych komunikat błędu znika, a użytkownik zostaje zalogowany i przekierowany do panelu "Moje OLX".
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -505,7 +505,7 @@ Przycisk "Zaloguj" jest nieaktywny (nieklikalny) dopóki oba pola nie zostaną w
 **Rzeczywisty wynik:** \
 Przycisk "Zaloguj" jest nieaktywny (nieklikalny) dopóki oba pola nie zostaną wypełnione poprawnymi danymi.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -534,7 +534,7 @@ Po wprowadzeniu poprawnych danych przycisk "Zaloguj" staje się aktywny i pozwal
 **Rzeczywisty wynik:** \
 Po wprowadzeniu poprawnych danych przycisk "Zaloguj" staje się aktywny i pozwala użytkownikowi zalogować się do konta OLX.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
 
 ---
 
@@ -562,4 +562,4 @@ Link „Nie pamiętam hasła” jest wyraźnie widoczny, dostępny (klikany) i p
 **Rzeczywisty wynik:** \
 Link „Nie pamiętam hasła” jest wyraźnie widoczny, dostępny (klikany) i po kliknięciu przenosi użytkownika do formularza resetowania hasła.
 
-**Status:** Zaliczony
+**Status:** ✅ Zaliczony
