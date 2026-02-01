@@ -18,14 +18,14 @@ All test cases are written in a structured format and stored as individual Markd
 <br><br>
 
 # Table of contents:
-1. [Test Cases Overview – Login](#Login)
+1. [Test Cases Overview – Login](#LoginLogin)
 2. [Test Cases Overview – Forgot Password](#ForgetPassword)
-3. [Releted Bugs](#RelatedBugs)
+3. [Releted Bugs](#RelatedDefects)
 
 <br>
 
 
-<h3 id="Login">  Test Cases Overview – Login </h3>
+<h3 id="LoginLogin">  Test Cases Overview – Login </h3>
 
 | ID     | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
 |--------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
@@ -70,12 +70,14 @@ All test cases are written in a structured format and stored as individual Markd
 | BUG-003 | No trimming of new password during reset flow      | Minor    | Medium   | Open   | [BUG-003](../01-olx/bug-reports/BUG-003_No_trimming_new_password_reset.md) |
 
 <h3 id="Learnings"> Learnings & Notes </h3>
-- Strong client-side validation across login and forgot password forms (empty fields, email format, button disabling)
-- Good error messaging UX (specific where possible, disappears on correction, generic for security)
-- Weak point: No trimming of password whitespace – occurs both in login (BUG-002) and reset flow (BUG-003) → usability issue
-- Rate limiting on reset requests is strong (60-minute block after ~7 attempts) – excellent protection against abuse
-- All tests reproducible on desktop Chrome – next steps: mobile/responsiveness checks and additional modules (search, ad posting)
-- Authentication coverage now includes: login (18 TC), forgot password (8 TC), total 26 TC + 3 bugs
+
+- Strong client-side validation across login and forgot password forms (empty fields, email format, button disabling) <br>
+- Good error messaging UX (specific where possible, disappears on correction, generic for security) <br>
+- Weak point: No trimming of password whitespace – occurs both in login (BUG-002) and reset flow (BUG-003) → usability issue <br>
+- Rate limiting on reset requests is strong (60-minute block after ~7 attempts) – excellent protection against abuse <br>
+- All tests reproducible on desktop Chrome – next steps: mobile/responsiveness checks and additional modules (search, ad posting) <br>
+- Authentication coverage now includes: login (18 TC), forgot password (8 TC), total 26 TC + 3 bugs <br>
+
 
 Feedback welcome!  
 Feel free to open an issue or contact me.
