@@ -40,6 +40,6 @@ Login with previous password failed (correct behavior).
 **Environment:** Production
 
 **Attachments / Evidence:**  
-- ![TC-FORGOT-006 – success message after setting new password](evidence/TC-FORGOT-006_success-message-new-password.png)   
-- ![TC-FORGOT-006 – login failure with old password](evidence/TC-FORGOT-006_login-failure-old-password.png)  
+- ![TC-FORGOT-006 – success message after setting new password](../../evidence/TC-FORGOT-006_success-message-new-password.png)   
+- ![TC-FORGOT-006 – login failure with old password](../../evidence/TC-FORGOT-006_login-failure-old-password.png)  
 
