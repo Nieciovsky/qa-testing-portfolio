@@ -12,6 +12,10 @@
 
 ### February 2026
 
+**2026-02-02** 
+- Wrote 8 forgot-password test cases for OLX.pl (positive, negative, validation, UX)  
+- Reported 1 bug (set-new-password trimming issue)  
+
 **2026-02-01**  
 - Cosmetic changes + full repository restructuring (better folder structure, separate files per test case, consistent naming)  
 - Created reusable templates (bug-report.md, test-case.md)  
