@@ -16,8 +16,6 @@
 This project contains 26 test cases focused on the **authentication functionality** of OLX.pl (Login + Forgot Password).  
 All test cases are written in a structured format and stored as individual Markdown files.
 
----
-
 ## Tests table of contents
 1. [Test Cases Overview – Login](#TC-001)
 2. [Test Cases Overview – Forgot Password](#TC-FORGOT-001)
