@@ -21,6 +21,7 @@ All test cases are written in a structured format and stored as individual Markd
 1. [Test Cases Overview – Login](#LoginLogin)
 2. [Test Cases Overview – Forgot Password](#ForgotPasswordPassword)
 3. [Releted Bugs](#RelatedDefects)
+4. [Learnings & Notes](#Learnings)
 
 <br>
 
