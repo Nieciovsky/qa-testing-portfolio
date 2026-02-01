@@ -42,8 +42,8 @@ No further emails sent for the next 60 minutes. Rate limiting behavior confirmed
 
 
 **Attachments / Evidence:**  
-- ![TC-FORGOT-004 – rate limit message after multiple requests](evidence/TC-FORGOT-004_rate-limit-message.png)  
-- ![TC-FORGOT-004 – multiple emails received before block](evidence/TC-FORGOT-004_multiple-emails-before-block.png)  
+- ![TC-FORGOT-004 – rate limit message after multiple requests](../../evidence/TC-FORGOT-004_rate-limit-message.png)  
+- ![TC-FORGOT-004 – multiple emails received before block](../../evidence/TC-FORGOT-004_multiple-emails-before-block.png)  
 
 **Notes**
 Rate limiting triggered after 5 consecutive requests within ~2 minutes.
