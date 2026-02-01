@@ -13,11 +13,11 @@
 - {lub inne potrzebne dane – np. numer telefonu, tytuł ogłoszenia itp.}
 
 **Steps to Reproduce:**
-1. 
-2. 
-3. 
-4. 
-5. 
+1. <br>
+2. <br>
+3. <br>
+4. <br>
+5. <br>
 
 **Expected Result:**
 - {co dokładnie powinno się stać – krok po kroku lub w formie punktowanej}
@@ -43,3 +43,4 @@
 - {np. "Zachowanie poprawne tylko w desktop – na mobile do sprawdzenia"}
 - {Powiązane bugi: BUG-XXX}
 - {Sugerowane rozszerzenia testu: ...}
+
