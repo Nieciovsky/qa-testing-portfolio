@@ -5,18 +5,18 @@
 - Browser: Chrome 131 (latest)  
 - OS: Windows 11  
 - Device: Desktop (1920×1080)  
-- Tested Date: January 2026  
+- Tested Date: January–February 2026  
 
 **Scope of Testing:**  
-- Authentication (Login)  
+- Authentication (Login & Forgot Password)  
 - Form validation (email & password)  
 - Error handling & UX feedback  
-- Basic usability features (button states, link visibility)
+- Basic usability features (button states, link visibility, cancellation)
 
-This project contains 18 test cases focused on the **login functionality** of OLX.pl.  
+This project contains 26 test cases focused on the **authentication functionality** of OLX.pl (Login + Forgot Password).  
 All test cases are written in a structured format and stored as individual Markdown files.
 
-### Test Cases Overview
+### Test Cases Overview – Login
 
 | ID     | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
 |--------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
@@ -39,18 +39,34 @@ All test cases are written in a structured format and stored as individual Markd
 | TC-017 | Login button enabled after valid data entered      | Positive      | High     | Passed  | [TC-017_Login_button_enabled_after_valid_data.md](test-cases/login/TC-017_Login_button_enabled_after_valid_data.md) |
 | TC-018 | "Forgot password" link visibility & functionality  | Positive      | High     | Passed  | [TC-018_Forgot_password_link_visibility_and_function.md](test-cases/login/TC-018_Forgot_password_link_visibility_and_function.md) |
 
+### Test Cases Overview – Forgot Password
+
+| ID          | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
+|-------------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
+| TC-FORGOT-001 | Request password reset with valid registered email | Positive      | High     | Passed  | [TC-FORGOT-001_Request_reset_with_valid_email.md](test-cases/forgot-password/TC-FORGOT-001_Request_reset_with_valid_email.md) |
+| TC-FORGOT-002 | Request password reset with non-existing email     | Negative      | Medium   | Passed  | [TC-FORGOT-002_Request_reset_with_non_existing_email.md](test-cases/forgot-password/TC-FORGOT-002_Request_reset_with_non_existing_email.md) |
+| TC-FORGOT-003 | Request password reset with invalid email format   | Negative      | High     | Passed  | [TC-FORGOT-003_Request_reset_with_invalid_email_format.md](test-cases/forgot-password/TC-FORGOT-003_Request_reset_with_invalid_email_format.md) |
+| TC-FORGOT-004 | Multiple password reset requests (rate limiting)   | Negative / Security | Medium   | Passed  | [TC-FORGOT-004_Multiple_reset_requests_rate_limiting.md](test-cases/forgot-password/TC-FORGOT-004_Multiple_reset_requests_rate_limiting.md) |
+| TC-FORGOT-005 | Reset link expiration                              | Negative / Boundary | Medium   | Passed  | [TC-FORGOT-005_Reset_link_expiration.md](test-cases/forgot-password/TC-FORGOT-005_Reset_link_expiration.md) |
+| TC-FORGOT-006 | Set new password after clicking reset link         | Positive      | High     | Passed  | [TC-FORGOT-006_Set_new_password_after_reset.md](test-cases/forgot-password/TC-FORGOT-006_Set_new_password_after_reset.md) |
+| TC-FORGOT-007 | Set new password with leading/trailing spaces      | Negative / Usability | Medium   | Failed  | [TC-FORGOT-007_New_password_with_leading_trailing_spaces.md](test-cases/forgot-password/TC-FORGOT-007_New_password_with_leading_trailing_spaces.md) |
+| TC-FORGOT-008 | Cancel or back button during reset flow            | Positive / Usability | Medium   | Passed  | [TC-FORGOT-008_Cancel_or_back_during_reset_flow.md](test-cases/forgot-password/TC-FORGOT-008_Cancel_or_back_during_reset_flow.md) |
+
 ### Related Defects
 
 | ID      | Title                                              | Severity | Priority | Status | Link |
 |---------|----------------------------------------------------|----------|----------|--------|------|
 | BUG-001 | Missing spaces in subcategory labels (Nieruchomości) | Minor    | Low      | Open   | [BUG-001](../01-olx/bug-reports/BUG-001_Missing_spaces_in_subcategory_labels.md) |
-| BUG-002 | Password field does not trim leading/trailing spaces | Minor    | Medium   | Open   | [BUG-002](../01-olx/bug-reports/BUG-002_Password_field_does_not_trim_leading_trailing_spaces.md) |
+| BUG-002 | Password field does not trim leading/trailing spaces (login) | Minor    | Medium   | Open   | [BUG-002](../01-olx/bug-reports/BUG-002_Password_field_does_not_trim_leading_trailing_spaces.md) |
+| BUG-003 | No trimming of new password during reset flow      | Minor    | Medium   | Open   | [BUG-003](../01-olx/bug-reports/BUG-003_No_trimming_new_password_reset.md) |
 
 ### Learnings & Notes
-- Strong client-side validation (empty fields, basic email format, button disabling)
-- Good error messaging UX (specific, readable, disappears on correction)
-- Weak point: No trimming of password whitespace → usability issue (linked bug)
-- All tests reproducible on desktop Chrome – next: mobile/responsiveness checks
+- Strong client-side validation across login and forgot password forms (empty fields, email format, button disabling)
+- Good error messaging UX (specific where possible, disappears on correction, generic for security)
+- Weak point: No trimming of password whitespace – occurs both in login (BUG-002) and reset flow (BUG-003) → usability issue
+- Rate limiting on reset requests is strong (60-minute block after ~7 attempts) – excellent protection against abuse
+- All tests reproducible on desktop Chrome – next steps: mobile/responsiveness checks and additional modules (search, ad posting)
+- Authentication coverage now includes: login (18 TC), forgot password (8 TC), total 26 TC + 3 bugs
 
 Feedback welcome!  
 Feel free to open an issue or contact me.
