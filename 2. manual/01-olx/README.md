@@ -44,7 +44,7 @@ All test cases are written in a structured format and stored as individual Markd
 | ID      | Title                                              | Severity | Priority | Status | Link |
 |---------|----------------------------------------------------|----------|----------|--------|------|
 | BUG-001 | Missing spaces in subcategory labels (Nieruchomości) | Minor    | Low      | Open   | [BUG-001](../01-olx/bug-reports/BUG-001_Missing_spaces_in_subcategory_labels.md) |
-| BUG-002 | Password field does not trim leading/trailing spaces | Minor    | Medium   | Open   | [BUG-002](../bug-reports/BUG-002_Password_field_does_not_trim_leading_trailing_spaces.md) |
+| BUG-002 | Password field does not trim leading/trailing spaces | Minor    | Medium   | Open   | [BUG-002](../01-olx/bug-reports/BUG-002_Password_field_does_not_trim_leading_trailing_spaces.md) |
 
 ### Learnings & Notes
 - Strong client-side validation (empty fields, basic email format, button disabling)
