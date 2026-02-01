@@ -20,6 +20,7 @@ qa-testing-portfolio/
 │   ├── templates/
 │   │   ├── test-case.md
 │   │   ├── bug-report.md
+|   └── learning-log.md
 ├── manual/
 │   └── 01-olx/                   # first real testing project – OLX.pl
 │       ├── README.md
