@@ -38,8 +38,8 @@ Success message displayed: "Link został wysłany". Email arrived within ~10 sec
 **Browser / OS / Device:** Chrome 131 | Windows 11 | Desktop 1920×1080 
 
 **Attachments / Evidence:**  
-- ![TC-FORGOT-001 – success message after request](../evidence/TC-FORGOT-001_success-message-after-request.png)  
-- ![TC-FORGOT-001 – reset email received](../evidence/TC-FORGOT-001_reset-email-received.png)  
+- ![TC-FORGOT-001 – success message after request](../../evidence/TC-FORGOT-001_success-message-after-request.png)  
+- ![TC-FORGOT-001 – reset email received](../../evidence/TC-FORGOT-001_reset-email-received.png)  
 
 **Notes / Observations:**
 - Test ends here (email received and link visible).  
