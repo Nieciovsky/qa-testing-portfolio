@@ -14,22 +14,22 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 ## Repository Structure
 
 ```
-qa-testing-portfolio/
-├── README.md                     # ← you are here
-├── docs/
-│   ├── templates/
-│   │   ├── test-case.md
-│   │   ├── bug-report.md
-|   └── learning-log.md
-├── manual/
-│   └── 01-olx/                   # first real testing project – OLX.pl
-│       ├── README.md
-│       ├── test-cases/
-│       │   └── login/            #  test cases so far
-│       ├── bug-reports/          #  reported defects
-│       └── evidence/             # screenshots & attachments
-└── automation/                   # ← coming soon
-    └── README.md                 # "First automated tests – planned for Q2 2026"
+📁 qa-testing-portfolio/
+├── 📄 README.md                     # ← you are here
+├── 📁 docs/
+│   ├── 📁 templates/
+│   │   ├── 📄 test-case.md
+│   │   └── 📄 bug-report.md
+|   └── 📝learning-log.md
+├── 📁 manual/
+│   └── 📁 01-olx/                   # first real testing project – OLX.pl
+│       ├── 📄 README.md
+│       ├── 📁 test-cases/
+│       │   └── 📁 login/            #  test cases so far
+│       ├── 📝 bug-reports/          #  reported defects
+│       └── 📁 evidence/             # screenshots & attachments
+└── 📁automation/                    # ← coming soon
+    └── 📄 README.md                 # "First automated tests – planned for Q2 2026"
 ```
 
 
