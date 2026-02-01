@@ -38,4 +38,4 @@ User stayed on the form. No reset link generated.
 **Browser / OS / Device:** Chrome 131 | Windows 11 | Desktop 1920×1080 
 
 **Attachments / Evidence:**  
-- ![TC-FORGOT-002 – error message for non-existing email](evidence/TC-FORGOT-002_error-non-existing-email.png)  
+- ![TC-FORGOT-002 – error message for non-existing email](../../evidence/TC-FORGOT-002_error-non-existing-email.png)  
