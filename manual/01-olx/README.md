@@ -19,7 +19,7 @@ All test cases are written in a structured format and stored as individual Markd
 
 # Table of contents:
 1. [Test Cases Overview – Login](#LoginLogin)
-2. [Test Cases Overview – Forgot Password](#ForgetPassword)
+2. [Test Cases Overview – Forgot Password](#ForgotPasswordPassword)
 3. [Releted Bugs](#RelatedDefects)
 
 <br>
@@ -48,7 +48,7 @@ All test cases are written in a structured format and stored as individual Markd
 | TC-017 | Login button enabled after valid data entered      | Positive      | High     | Passed  | [TC-017_Login_button_enabled_after_valid_data.md](test-cases/login/TC-017_Login_button_enabled_after_valid_data.md) |
 | TC-018 | "Forgot password" link visibility & functionality  | Positive      | High     | Passed  | [TC-018_Forgot_password_link_visibility_and_function.md](test-cases/login/TC-018_Forgot_password_link_visibility_and_function.md) |
 
-<h3 id="ForgotPassword">Test Cases Overview – Forgot Password </h3>
+<h3 id="ForgotPasswordPassword">Test Cases Overview – Forgot Password </h3>
 
 | ID          | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
 |-------------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
