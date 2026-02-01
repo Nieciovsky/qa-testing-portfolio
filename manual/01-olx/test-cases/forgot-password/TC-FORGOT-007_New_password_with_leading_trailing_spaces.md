@@ -41,6 +41,6 @@ This matches the non-trimming behavior observed in login (see BUG-002).
 **Environment:** Production
 
 **Attachments / Evidence:**  
-- ![TC-FORGOT-007 – error after entering password with spaces](evidence/TC-FORGOT-007_error-spaces-in-new-password.png)  
-- ![TC-FORGOT-007 – input field showing spaces](evidence/TC-FORGOT-007_error-spaces-in-new-password.png)  
+- ![TC-FORGOT-007 – error after entering password with spaces](../../evidence/TC-FORGOT-007_error-spaces-in-new-password.png)  
+- ![TC-FORGOT-007 – input field showing spaces](../../evidence/TC-FORGOT-007_error-spaces-in-new-password.png)  
 
