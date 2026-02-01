@@ -37,10 +37,10 @@ qa-testing-portfolio/
 
 ## Current Projects
 
-| #  | Project       | Focus area                          | Test Cases | Bugs | Status     | Link to details                                 |
-|----|---------------|-------------------------------------|------------|------|------------|-------------------------------------------------|
-| 01 | OLX.pl        | Login / Authentication / UX         | 18         | 2    | In progress| [→ 01-olx/README.md](./manual/01-olx/README.md) |
-| 02 | (next)        |  ...                                | —          | —    | Planned    | —                                               |
+| #  | Project       | Focus area                          | Test Cases | Bugs | Status     |
+|----|---------------|-------------------------------------|------------|------|------------|
+| 01 | OLX.pl        | Login / Authentication / UX         | 18         | 2    | In progress|
+| 02 | (next)        |  ...                                | —          | —    | Planned    |
 
 ## Skills & Techniques Practiced
 
