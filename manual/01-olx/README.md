@@ -1,4 +1,4 @@
-# 01 – OLX.pl
+# 📌 01 – OLX.pl
 
 **Project Type:** Manual Testing – Functional & UI/UX  <br><br>
 **Tested Environment:**  
@@ -19,7 +19,7 @@ This project contains 26 test cases with bug reports focused on the **authentica
 All test cases are written in a structured format and stored as individual Markdown files.
 <br><br>
 
-# Table of contents:
+# 📘 Table of contents:
 1. [Test Cases Overview – Login](#LoginLogin)
 2. [Test Cases Overview – Forgot Password](#ForgotPasswordPassword)
 3. [Releted Defects](#RelatedDefects)
@@ -28,7 +28,7 @@ All test cases are written in a structured format and stored as individual Markd
 <br>
 
 
-<h3 id="LoginLogin">  Test Cases Overview – Login </h3>
+<h3 id="LoginLogin">📋 Test Cases Overview – Login </h3>
 
 | ID     | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
 |--------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ All test cases are written in a structured format and stored as individual Markd
 | TC-017 | Login button enabled after valid data entered      | Positive      | High     | Passed  | [TC-017_Login_button_enabled_after_valid_data.md](test-cases/login/TC-017_Login_button_enabled_after_valid_data.md) |
 | TC-018 | "Forgot password" link visibility & functionality  | Positive      | High     | Passed  | [TC-018_Forgot_password_link_visibility_and_function.md](test-cases/login/TC-018_Forgot_password_link_visibility_and_function.md) |
 
-<h3 id="ForgotPasswordPassword">Test Cases Overview – Forgot Password </h3>
+<h3 id="ForgotPasswordPassword">📋 Test Cases Overview – Forgot Password </h3>
 
 | ID          | Title                                              | Type          | Priority | Status  | Link to File                                                                 |
 |-------------|----------------------------------------------------|---------------|----------|---------|------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ All test cases are written in a structured format and stored as individual Markd
 | TC-FORGOT-007 | Set new password with leading/trailing spaces      | Negative / Usability | Medium   | Failed  | [TC-FORGOT-007_New_password_with_leading_trailing_spaces.md](test-cases/forgot-password/TC-FORGOT-007_New_password_with_leading_trailing_spaces.md) |
 | TC-FORGOT-008 | Cancel or back button during reset flow            | Positive / Usability | Medium   | Passed  | [TC-FORGOT-008_Cancel_or_back_during_reset_flow.md](test-cases/forgot-password/TC-FORGOT-008_Cancel_or_back_during_reset_flow.md) |
 
-<h3 id="RelatedDefects">  Related Defects </h3>
+<h3 id="RelatedDefects">📛  Related Defects </h3>
 
 | ID      | Title                                              | Severity | Priority | Status | Link |
 |---------|----------------------------------------------------|----------|----------|--------|------|
@@ -72,7 +72,9 @@ All test cases are written in a structured format and stored as individual Markd
 | BUG-002 | Password field does not trim leading/trailing spaces (login) | Minor    | Medium   | Open   | [BUG-002](../01-olx/bug-reports/BUG-002_Password_field_does_not_trim_leading_trailing_spaces.md) |
 | BUG-003 | No trimming of new password during reset flow      | Minor    | Medium   | Open   | [BUG-003](../01-olx/bug-reports/BUG-003_No_trimming_new_password_reset.md) |
 
-<h3 id="Learnings"> Learnings & Notes </h3>
+<br>
+
+<h3 id="Learnings"> 🧠 Learnings & Notes </h3>
 
 - Strong client-side validation across login and forgot password forms (empty fields, email format, button disabling) <br>
 - Good error messaging UX (specific where possible, disappears on correction, generic for security) <br>
