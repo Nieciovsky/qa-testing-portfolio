@@ -40,10 +40,10 @@ Does not break core functionality, but causes unnecessary failures for common co
 Improves user experience, reduces support tickets, aligns with major platforms (Google, Facebook, Microsoft – all trim passwords on reset/login).
 
 **Attachments / Evidence:**
-- ![BUG-003 – error after entering password with spaces](../../evidence/BUG-003_password-input-with-spaces.pngevidence/BUG-003_password-input-with-spaces.png)  
+- ![BUG-003 – error after entering password with spaces](../evidence/BUG-003_password-input-with-spaces.png)  
   *Shown: validation error despite valid core password (spaces cause failure)*
 
-- ![BUG-003 – input field showing spaces](../../evidence/BUG-003_password-input-with-spaces.pngevidence/BUG-003_password-input-with-spaces.png)  
+- ![BUG-003 – input field showing spaces](../evidence/BUG-003_password-input-with-spaces.png)  
   *Shown: user entered password with visible leading/trailing spaces*
 
 
