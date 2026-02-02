@@ -22,12 +22,13 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 │   │   └── 📄 bug-report.md
 |   └── 📝learning-log.md
 ├── 📁 manual/
-│   └── 📁 01-olx/                   # first real testing project – OLX.pl
-│       ├── 📄 README.md
-│       ├── 📁 test-cases/
-│       │   └── 📁 login/            #  test cases so far
-│       ├── 📝 bug-reports/          #  reported defects
-│       └── 📁 evidence/             # screenshots & attachments
+│   ├── 📁 01-olx/                   # first real testing project – OLX.pl
+│   |   ├── 📄 README.md
+│   │   ├── 📁 test-cases/
+│   │   │   └── 📁 login/            #  test cases so far
+│   │   ├── 📝 bug-reports/          #  reported defects
+│   │   └── 📁 evidence/             # screenshots & attachments
+|   └── 📁 (others...)
 └── 📁automation/                    # ← coming soon
     └── 📄 README.md                 # "First automated tests – planned for Q2 2026"
 ```
