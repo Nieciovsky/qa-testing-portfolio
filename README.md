@@ -40,7 +40,7 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 
 | #  | Project       | Focus area                          | Test Cases | Bugs | Status     | Redirection to Project |
 |----|---------------|-------------------------------------|------------|------|------------| ---- |
-| 01 | OLX.pl        | Login / Authentication / UX         | 18         | 2    | In progress| [ClickHere](manual/01-olx) |
+| 01 | OLX.pl        | Login / Authentication / UX         | 25+        | 3    | In progress| [ClickHere](manual/01-olx) |
 | ... | ...          |  ...                                | ...        | .... | Planned    | ... |
 
 ## Skills & Techniques Practiced
