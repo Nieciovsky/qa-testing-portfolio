@@ -28,7 +28,7 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 │   │   │   └── 📁 login/            #  test cases so far
 │   │   ├── 📝 bug-reports/          #  reported defects
 │   │   └── 📁 evidence/             # screenshots & attachments
-|   └── 📁 (others...)
+|   └── ... (next projects)
 └── 📁automation/                    # ← coming soon
     └── 📄 README.md                 # "First automated tests – planned for Q2 2026"
 ```
