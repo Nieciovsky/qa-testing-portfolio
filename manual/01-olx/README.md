@@ -13,7 +13,7 @@
 - Error handling & UX feedback  
 - Basic usability features (button states, link visibility, cancellation)
 
-This project contains 26 test cases focused on the **authentication functionality** of OLX.pl (Login + Forgot Password).  
+This project contains 26 test cases with bug reports focused on the **authentication functionality** of OLX.pl (Login + Forgot Password).  
 All test cases are written in a structured format and stored as individual Markdown files.
 <br><br>
 
