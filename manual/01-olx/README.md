@@ -1,6 +1,6 @@
 # 01 – OLX.pl
 
-**Project Type:** Manual Testing – Functional & UI/UX  
+**Project Type:** Manual Testing – Functional & UI/UX  <br><br>
 **Tested Environment:**  
 - Browser: Chrome 131 (latest)  
 - OS: Windows 11  
@@ -12,6 +12,8 @@
 - Form validation (email & password)  
 - Error handling & UX feedback  
 - Basic usability features (button states, link visibility, cancellation)
+
+<br>
 
 This project contains 26 test cases with bug reports focused on the **authentication functionality** of OLX.pl (Login + Forgot Password).  
 All test cases are written in a structured format and stored as individual Markdown files.
