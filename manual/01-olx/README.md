@@ -19,7 +19,7 @@
 🔹 All test cases are written in a structured format and stored as individual Markdown files. 🔹</p>
 <br><br>
 
-# 📘 Table of contents:
+# 📚 Scope of Contents:
 1. [Test Cases Overview – Login](#LoginLogin)
 2. [Test Cases Overview – Forgot Password](#ForgotPasswordPassword)
 3. [Releted Defects](#RelatedDefects)
