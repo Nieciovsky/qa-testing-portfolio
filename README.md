@@ -1,7 +1,7 @@
 # 🧪 QA Portfolio – Nieciovsky
 
 <p align="center">
-  <b>Aspiring Junior QA Engineer</b> • Manual Testing • Bug Reporting • Learning Automation
+  <b>🔸 Aspiring Junior QA Engineer</b> • Manual Testing • Bug Reporting • Learning Automation 🔸
 </p>
 
 <br>
