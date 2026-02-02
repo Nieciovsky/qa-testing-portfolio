@@ -1,4 +1,4 @@
-# QA Portfolio – Nieciovsky
+# 🧪 QA Portfolio – Nieciovsky
 
 <p align="center">
   <b>Aspiring Junior QA Engineer</b> • Manual Testing • Bug Reporting • Learning Automation
@@ -11,7 +11,7 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```
 📁 qa-testing-portfolio/
@@ -37,14 +37,14 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 ---
 
 
-## Current Projects
+## 📌 Current Projects
 
 | #  | Project       | Focus area                          | Test Cases | Bugs | Status     | Redirection to Project |
 |----|---------------|-------------------------------------|------------|------|------------| ---- |
 | 01 | OLX.pl        | Login / Authentication / UX         | 25+        | 3    | In progress| [ClickHere](manual/01-olx) |
 | ... | ...          |  ...                                | ...        | .... | Planned    | ... |
 
-## Skills & Techniques Practiced
+## 🎯 Skills & Techniques Practiced
 
 - Writing structured test cases (positive / negative / boundary / edge)
 - Creating clear, reproducible bug reports (severity & priority)
@@ -54,7 +54,7 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 - GitHub portfolio organization & Markdown documentation
 - Linking test cases ↔ bugs ↔ evidence screenshots
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 | Category          | Tools / Technologies used so far                  | Level          | Next to learn          |
 |-------------------|---------------------------------------------------|----------------|------------------------|
@@ -64,7 +64,7 @@ Next steps include API testing (Postman), automation (Cypress / Playwright), and
 | Future automation | —                                                 | Planned        | Cypress / Playwright   |
 | API testing       | —                                                 | Planned        | Postman                |
 
-## Learning Log Highlights
+## 📘 Learning Log Highlights
 
 Latest entries from [learning-log.md](./docs/learning-log.md):
 
